@@ -1,0 +1,153 @@
+{
+  "problem10": {
+    "bugs": [
+      {
+        "bug_name": "bug1_off_by_one",
+        "description": " Bug 1: Off-by-one error in range check  ",
+        "baseline_caught": true,
+        "baseline_failed_tests": [
+          "HumanEval baseline test"
+        ],
+        "improved_caught": true,
+        "improved_failed_tests": [
+          "test_maximum_range_edge_cases",
+          "test_mixed_valid_and_invalid_numbers",
+          "test_valid_range_with_duplicates",
+          "HumanEval baseline"
+        ],
+        "only_improved_caught": false
+      },
+      {
+        "bug_name": "bug2_wrong_sort",
+        "description": " Bug 2: Wrong sort order  ",
+        "baseline_caught": true,
+        "baseline_failed_tests": [
+          "HumanEval baseline test"
+        ],
+        "improved_caught": true,
+        "improved_failed_tests": [
+          "test_maximum_range_edge_cases",
+          "test_mixed_valid_and_invalid_numbers",
+          "test_valid_range_and_sorting_verification",
+          "test_valid_range_with_duplicates",
+          "HumanEval baseline"
+        ],
+        "only_improved_caught": false
+      },
+      {
+        "bug_name": "bug3_no_exception_handling",
+        "description": " Bug 3: Missing exception handling  ",
+        "baseline_caught": true,
+        "baseline_failed_tests": [
+          "HumanEval baseline test (exception: KeyError)"
+        ],
+        "improved_caught": true,
+        "improved_failed_tests": [
+          "test_mixed_valid_and_invalid_numbers (exception: KeyError)",
+          "test_out_of_range_negatives_and_zero (exception: KeyError)",
+          "test_out_of_range_positives_only (exception: KeyError)",
+          "HumanEval baseline"
+        ],
+        "only_improved_caught": false
+      },
+      {
+        "bug_name": "bug4_wrong_boundary",
+        "description": " Bug 4: Wrong boundary check (0-9 instead of 1-9)  ",
+        "baseline_caught": false,
+        "baseline_failed_tests": [],
+        "improved_caught": true,
+        "improved_failed_tests": [
+          "test_mixed_valid_and_invalid_numbers",
+          "test_out_of_range_negatives_and_zero"
+        ],
+        "only_improved_caught": true
+      }
+    ],
+    "summary": {
+      "total_bugs": 4,
+      "baseline_caught": 3,
+      "improved_caught": 4,
+      "only_improved_caught": 1,
+      "baseline_detection_rate": 0.75,
+      "improved_detection_rate": 1.0
+    }
+  },
+  "problem4": {
+    "bugs": [
+      {
+        "bug_name": "bug1_off_by_one",
+        "description": " Bug 1: Off-by-one in while loop   Test if given string is a palindrome ",
+        "baseline_caught": true,
+        "baseline_failed_tests": [
+          "HumanEval baseline test"
+        ],
+        "improved_caught": true,
+        "improved_failed_tests": [
+          "test_already_palindrome_zero_iterations",
+          "test_single_character_zero_iterations",
+          "HumanEval baseline"
+        ],
+        "only_improved_caught": false
+      },
+      {
+        "bug_name": "bug2_missing_empty_check",
+        "description": " Bug 2: Wrong slice indexing   Test if given string is a palindrome ",
+        "baseline_caught": true,
+        "baseline_failed_tests": [
+          "HumanEval baseline test"
+        ],
+        "improved_caught": true,
+        "improved_failed_tests": [
+          "test_already_palindrome_zero_iterations",
+          "test_long_string_with_internal_palindrome",
+          "test_multiple_iterations_no_suffix",
+          "test_one_iteration_required",
+          "test_partial_palindromic_suffix",
+          "HumanEval baseline"
+        ],
+        "only_improved_caught": false
+      },
+      {
+        "bug_name": "bug3_no_reversal",
+        "description": " Bug 3: Wrong string reversal   Test if given string is a palindrome ",
+        "baseline_caught": true,
+        "baseline_failed_tests": [
+          "HumanEval baseline test"
+        ],
+        "improved_caught": true,
+        "improved_failed_tests": [
+          "test_long_string_with_internal_palindrome",
+          "test_multiple_iterations_no_suffix",
+          "test_one_iteration_required",
+          "HumanEval baseline"
+        ],
+        "only_improved_caught": false
+      },
+      {
+        "bug_name": "bug4_broken_helper",
+        "description": " Bug 4: Wrong palindrome check logic   Test if given string is a palindrome ",
+        "baseline_caught": true,
+        "baseline_failed_tests": [
+          "HumanEval baseline test"
+        ],
+        "improved_caught": true,
+        "improved_failed_tests": [
+          "test_long_string_with_internal_palindrome",
+          "test_multiple_iterations_no_suffix",
+          "test_one_iteration_required",
+          "test_partial_palindromic_suffix",
+          "HumanEval baseline"
+        ],
+        "only_improved_caught": false
+      }
+    ],
+    "summary": {
+      "total_bugs": 4,
+      "baseline_caught": 4,
+      "improved_caught": 4,
+      "only_improved_caught": 0,
+      "baseline_detection_rate": 1.0,
+      "improved_detection_rate": 1.0
+    }
+  }
+}
