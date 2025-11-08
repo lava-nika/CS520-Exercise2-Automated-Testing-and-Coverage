@@ -1,0 +1,1293 @@
+Loading HumanEval problems...
+Discovering solution files...
+
+Found solutions for 10 problems
+  problem1: 18 solutions
+  problem10: 18 solutions
+  problem2: 18 solutions
+  problem3: 18 solutions
+  problem4: 18 solutions
+  problem5: 18 solutions
+  problem6: 18 solutions
+  problem7: 18 solutions
+  problem8: 18 solutions
+  problem9: 18 solutions
+
+================================================================================
+Analyzing Problem problem1
+================================================================================
+
+Testing: claude_problem1_tds_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 86.7%
+  Lines: 8/9
+  Branch Coverage: 83.3%
+  Branches: 5/6
+
+Testing: claude_problem1_selfdebug_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 7/7
+  Branch Coverage: 100.0%
+  Branches: 6/6
+
+Testing: claude_problem1_cot_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 88.2%
+  Lines: 8/9
+  Branch Coverage: 87.5%
+  Branches: 7/8
+
+Testing: claude_problem1_cot_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 86.7%
+  Lines: 8/9
+  Branch Coverage: 83.3%
+  Branches: 5/6
+
+Testing: claude_problem1_tds_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 80.0%
+  Lines: 5/6
+  Branch Coverage: 75.0%
+  Branches: 3/4
+
+Testing: claude_problem1_selfdebug_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 7/7
+  Branch Coverage: 100.0%
+  Branches: 4/4
+
+Testing: claude_problem1_tds_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 88.2%
+  Lines: 8/9
+  Branch Coverage: 87.5%
+  Branches: 7/8
+
+Testing: claude_problem1_cot_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 9/9
+  Branch Coverage: 100.0%
+  Branches: 8/8
+
+Testing: claude_problem1_selfdebug_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 7/7
+  Branch Coverage: 100.0%
+  Branches: 6/6
+
+Testing: gpt5_problem1_cot_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 63.0%
+  Lines: 11/19
+  Branch Coverage: 75.0%
+  Branches: 6/8
+
+Testing: gpt5_problem1_tds_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 75.0%
+  Lines: 22/28
+  Branch Coverage: 68.8%
+  Branches: 11/16
+
+Testing: gpt5_problem1_selfdebug_sample3.py
+  Status: ✗ FAILED
+  Line Coverage: 10.3%
+  Lines: 3/17
+  Branch Coverage: 0.0%
+  Branches: 0/12
+
+Testing: gpt5_problem1_selfdebug_sample2.py
+  Status: ✗ FAILED
+  Line Coverage: 14.3%
+  Lines: 3/13
+  Branch Coverage: 0.0%
+  Branches: 0/8
+
+Testing: gpt5_problem1_selfdebug_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 80.0%
+  Lines: 10/12
+  Branch Coverage: 75.0%
+  Branches: 6/8
+
+Testing: gpt5_problem1_cot_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 87.5%
+  Lines: 18/20
+  Branch Coverage: 83.3%
+  Branches: 10/12
+
+Testing: gpt5_problem1_tds_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 77.1%
+  Lines: 24/30
+  Branch Coverage: 72.2%
+  Branches: 13/18
+
+Testing: gpt5_problem1_tds_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 79.2%
+  Lines: 27/33
+  Branch Coverage: 75.0%
+  Branches: 15/20
+
+Testing: gpt5_problem1_cot_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 81.0%
+  Lines: 11/13
+  Branch Coverage: 75.0%
+  Branches: 6/8
+
+================================================================================
+Analyzing Problem problem10
+================================================================================
+
+Testing: claude_problem10_cot_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 6/6
+
+Testing: claude_problem10_tds_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 4/4
+
+Testing: claude_problem10_selfdebug_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 81.8%
+  Lines: 12/14
+  Branch Coverage: 75.0%
+  Branches: 6/8
+
+Testing: claude_problem10_tds_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 6/6
+  Branch Coverage: 100.0%
+  Branches: 4/4
+
+Testing: claude_problem10_cot_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 10/10
+  Branch Coverage: 100.0%
+  Branches: 4/4
+
+Testing: claude_problem10_selfdebug_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 10/10
+  Branch Coverage: 100.0%
+  Branches: 4/4
+
+Testing: claude_problem10_cot_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 10/10
+  Branch Coverage: 100.0%
+  Branches: 4/4
+
+Testing: claude_problem10_selfdebug_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 5/5
+
+Testing: claude_problem10_tds_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 10/10
+  Branch Coverage: 100.0%
+  Branches: 4/4
+
+Testing: gpt5_problem10_tds_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 79.3%
+  Lines: 18/21
+  Branch Coverage: 62.5%
+  Branches: 5/8
+
+Testing: gpt5_problem10_selfdebug_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 86.7%
+  Lines: 10/11
+  Branch Coverage: 75.0%
+  Branches: 3/4
+
+Testing: gpt5_problem10_cot_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 86.7%
+  Lines: 10/11
+  Branch Coverage: 75.0%
+  Branches: 3/4
+
+Testing: gpt5_problem10_cot_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 5/5
+
+Testing: gpt5_problem10_tds_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 78.9%
+  Lines: 13/15
+  Branch Coverage: 50.0%
+  Branches: 2/4
+
+Testing: gpt5_problem10_selfdebug_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 5/5
+
+Testing: gpt5_problem10_cot_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 5/5
+
+Testing: gpt5_problem10_selfdebug_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 69.2%
+  Lines: 7/9
+  Branch Coverage: 50.0%
+  Branches: 2/4
+
+Testing: gpt5_problem10_tds_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 76.5%
+  Lines: 11/13
+  Branch Coverage: 50.0%
+  Branches: 2/4
+
+================================================================================
+Analyzing Problem problem2
+================================================================================
+
+Testing: claude_problem2_selfdebug_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 96.4%
+  Lines: 18/18
+  Branch Coverage: 90.0%
+  Branches: 9/10
+
+Testing: claude_problem2_selfdebug_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 96.4%
+  Lines: 18/18
+  Branch Coverage: 90.0%
+  Branches: 9/10
+
+Testing: claude_problem2_tds_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 89.3%
+  Lines: 17/18
+  Branch Coverage: 80.0%
+  Branches: 8/10
+
+Testing: claude_problem2_cot_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 96.4%
+  Lines: 18/18
+  Branch Coverage: 90.0%
+  Branches: 9/10
+
+Testing: claude_problem2_cot_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 96.4%
+  Lines: 18/18
+  Branch Coverage: 90.0%
+  Branches: 9/10
+
+Testing: claude_problem2_tds_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 90.0%
+  Lines: 17/18
+  Branch Coverage: 83.3%
+  Branches: 10/12
+
+Testing: claude_problem2_tds_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 89.7%
+  Lines: 18/19
+  Branch Coverage: 80.0%
+  Branches: 8/10
+
+Testing: claude_problem2_cot_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 96.4%
+  Lines: 18/18
+  Branch Coverage: 90.0%
+  Branches: 9/10
+
+Testing: claude_problem2_selfdebug_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 93.5%
+  Lines: 19/19
+  Branch Coverage: 83.3%
+  Branches: 10/12
+
+Testing: gpt5_problem2_cot_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 81.2%
+  Lines: 17/20
+  Branch Coverage: 75.0%
+  Branches: 9/12
+
+Testing: gpt5_problem2_tds_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 86.2%
+  Lines: 17/19
+  Branch Coverage: 80.0%
+  Branches: 8/10
+
+Testing: gpt5_problem2_selfdebug_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 81.2%
+  Lines: 17/20
+  Branch Coverage: 75.0%
+  Branches: 9/12
+
+Testing: gpt5_problem2_cot_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 80.6%
+  Lines: 17/21
+  Branch Coverage: 80.0%
+  Branches: 12/15
+
+Testing: gpt5_problem2_tds_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 84.6%
+  Lines: 22/25
+  Branch Coverage: 78.6%
+  Branches: 11/14
+
+Testing: gpt5_problem2_selfdebug_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 84.2%
+  Lines: 21/24
+  Branch Coverage: 78.6%
+  Branches: 11/14
+
+Testing: gpt5_problem2_tds_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 84.2%
+  Lines: 21/24
+  Branch Coverage: 78.6%
+  Branches: 11/14
+
+Testing: gpt5_problem2_selfdebug_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 76.9%
+  Lines: 18/22
+  Branch Coverage: 70.6%
+  Branches: 12/17
+
+Testing: gpt5_problem2_cot_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 83.8%
+  Lines: 20/23
+  Branch Coverage: 78.6%
+  Branches: 11/14
+
+================================================================================
+Analyzing Problem problem3
+================================================================================
+
+Testing: claude_problem3_tds_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 87.5%
+  Lines: 7/8
+  Branch Coverage: 87.5%
+  Branches: 7/8
+
+Testing: claude_problem3_cot_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 88.2%
+  Lines: 8/9
+  Branch Coverage: 87.5%
+  Branches: 7/8
+
+Testing: claude_problem3_selfdebug_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 91.3%
+  Lines: 12/13
+  Branch Coverage: 90.0%
+  Branches: 9/10
+
+Testing: claude_problem3_cot_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 91.3%
+  Lines: 12/13
+  Branch Coverage: 90.0%
+  Branches: 9/10
+
+Testing: claude_problem3_selfdebug_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 88.2%
+  Lines: 8/9
+  Branch Coverage: 87.5%
+  Branches: 7/8
+
+Testing: claude_problem3_tds_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 90.5%
+  Lines: 10/11
+  Branch Coverage: 90.0%
+  Branches: 9/10
+
+Testing: claude_problem3_cot_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 85.2%
+  Lines: 13/15
+  Branch Coverage: 83.3%
+  Branches: 10/12
+
+Testing: claude_problem3_tds_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 91.3%
+  Lines: 12/13
+  Branch Coverage: 90.0%
+  Branches: 9/10
+
+Testing: claude_problem3_selfdebug_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 84.0%
+  Lines: 11/13
+  Branch Coverage: 83.3%
+  Branches: 10/12
+
+Testing: gpt5_problem3_selfdebug_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 84.6%
+  Lines: 12/14
+  Branch Coverage: 83.3%
+  Branches: 10/12
+
+Testing: gpt5_problem3_tds_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 68.2%
+  Lines: 19/26
+  Branch Coverage: 61.1%
+  Branches: 11/18
+
+Testing: gpt5_problem3_cot_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 91.3%
+  Lines: 12/13
+  Branch Coverage: 90.0%
+  Branches: 9/10
+
+Testing: gpt5_problem3_cot_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 91.7%
+  Lines: 13/14
+  Branch Coverage: 90.0%
+  Branches: 9/10
+
+Testing: gpt5_problem3_tds_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 74.6%
+  Lines: 32/41
+  Branch Coverage: 70.0%
+  Branches: 21/30
+
+Testing: gpt5_problem3_tds_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 70.9%
+  Lines: 23/31
+  Branch Coverage: 66.7%
+  Branches: 16/24
+
+Testing: gpt5_problem3_cot_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 97.1%
+  Lines: 40/41
+  Branch Coverage: 96.4%
+  Branches: 27/28
+
+Testing: gpt5_problem3_selfdebug_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 85.2%
+  Lines: 13/15
+  Branch Coverage: 83.3%
+  Branches: 10/12
+
+Testing: gpt5_problem3_selfdebug_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 94.4%
+  Lines: 40/42
+  Branch Coverage: 93.3%
+  Branches: 28/30
+
+================================================================================
+Analyzing Problem problem4
+================================================================================
+
+Testing: claude_problem4_selfdebug_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 87.5%
+  Lines: 9/10
+  Branch Coverage: 83.3%
+  Branches: 5/6
+
+Testing: claude_problem4_cot_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 86.7%
+  Lines: 8/9
+  Branch Coverage: 83.3%
+  Branches: 5/6
+
+Testing: claude_problem4_tds_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 87.5%
+  Lines: 9/10
+  Branch Coverage: 83.3%
+  Branches: 5/6
+
+Testing: claude_problem4_tds_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 89.5%
+  Lines: 10/11
+  Branch Coverage: 87.5%
+  Branches: 7/8
+
+Testing: claude_problem4_cot_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 90.5%
+  Lines: 12/13
+  Branch Coverage: 87.5%
+  Branches: 7/8
+
+Testing: claude_problem4_cot_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 87.5%
+  Lines: 9/10
+  Branch Coverage: 83.3%
+  Branches: 5/6
+
+Testing: claude_problem4_tds_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 87.5%
+  Lines: 9/10
+  Branch Coverage: 83.3%
+  Branches: 5/6
+
+Testing: claude_problem4_selfdebug_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 86.7%
+  Lines: 8/9
+  Branch Coverage: 83.3%
+  Branches: 5/6
+
+Testing: claude_problem4_selfdebug_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 90.5%
+  Lines: 12/13
+  Branch Coverage: 87.5%
+  Branches: 7/8
+
+Testing: gpt5_problem4_selfdebug_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 76.0%
+  Lines: 28/34
+  Branch Coverage: 62.5%
+  Branches: 10/16
+
+Testing: gpt5_problem4_tds_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 90.0%
+  Lines: 13/14
+  Branch Coverage: 83.3%
+  Branches: 5/6
+
+Testing: gpt5_problem4_selfdebug_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 81.0%
+  Lines: 11/13
+  Branch Coverage: 75.0%
+  Branches: 6/8
+
+Testing: gpt5_problem4_cot_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 90.9%
+  Lines: 13/14
+  Branch Coverage: 87.5%
+  Branches: 7/8
+
+Testing: gpt5_problem4_selfdebug_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 84.6%
+  Lines: 14/16
+  Branch Coverage: 80.0%
+  Branches: 8/10
+
+Testing: gpt5_problem4_tds_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 85.7%
+  Lines: 47/54
+  Branch Coverage: 83.3%
+  Branches: 25/30
+
+Testing: gpt5_problem4_cot_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 88.2%
+  Lines: 10/11
+  Branch Coverage: 83.3%
+  Branches: 5/6
+
+Testing: gpt5_problem4_cot_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 93.1%
+  Lines: 20/21
+  Branch Coverage: 87.5%
+  Branches: 7/8
+
+Testing: gpt5_problem4_tds_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 90.6%
+  Lines: 20/22
+  Branch Coverage: 90.0%
+  Branches: 9/10
+
+================================================================================
+Analyzing Problem problem5
+================================================================================
+
+Testing: claude_problem5_cot_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 2/2
+
+Testing: claude_problem5_selfdebug_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 2/2
+
+Testing: claude_problem5_tds_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 4/4
+
+Testing: claude_problem5_tds_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 4/4
+
+Testing: claude_problem5_cot_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 2/2
+
+Testing: claude_problem5_tds_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 2/2
+
+Testing: claude_problem5_selfdebug_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 2/2
+
+Testing: claude_problem5_cot_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 2/2
+
+Testing: claude_problem5_selfdebug_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 2/2
+
+Testing: gpt5_problem5_selfdebug_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 81.8%
+  Lines: 8/9
+  Branch Coverage: 50.0%
+  Branches: 1/2
+
+Testing: gpt5_problem5_selfdebug_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 77.8%
+  Lines: 6/7
+  Branch Coverage: 50.0%
+  Branches: 1/2
+
+Testing: gpt5_problem5_cot_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 2/2
+
+Testing: gpt5_problem5_tds_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 81.8%
+  Lines: 8/9
+  Branch Coverage: 50.0%
+  Branches: 1/2
+
+Testing: gpt5_problem5_tds_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 81.8%
+  Lines: 8/9
+  Branch Coverage: 50.0%
+  Branches: 1/2
+
+Testing: gpt5_problem5_cot_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 15/15
+  Branch Coverage: 100.0%
+  Branches: 8/8
+
+Testing: gpt5_problem5_cot_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 2/2
+
+Testing: gpt5_problem5_tds_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 90.5%
+  Lines: 14/15
+  Branch Coverage: 83.3%
+  Branches: 5/6
+
+Testing: gpt5_problem5_selfdebug_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 66.7%
+  Lines: 3/4
+  Branch Coverage: 50.0%
+  Branches: 1/2
+
+================================================================================
+Analyzing Problem problem6
+================================================================================
+
+Testing: claude_problem6_cot_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 94.4%
+  Lines: 10/10
+  Branch Coverage: 87.5%
+  Branches: 7/8
+
+Testing: claude_problem6_tds_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 7/7
+  Branch Coverage: 100.0%
+  Branches: 4/4
+
+Testing: claude_problem6_tds_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 94.4%
+  Lines: 10/10
+  Branch Coverage: 87.5%
+  Branches: 7/8
+
+Testing: claude_problem6_cot_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 94.4%
+  Lines: 10/10
+  Branch Coverage: 87.5%
+  Branches: 7/8
+
+Testing: claude_problem6_selfdebug_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 94.4%
+  Lines: 10/10
+  Branch Coverage: 87.5%
+  Branches: 7/8
+
+Testing: claude_problem6_selfdebug_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 94.4%
+  Lines: 10/10
+  Branch Coverage: 87.5%
+  Branches: 7/8
+
+Testing: claude_problem6_selfdebug_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 94.4%
+  Lines: 10/10
+  Branch Coverage: 87.5%
+  Branches: 7/8
+
+Testing: claude_problem6_tds_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 94.4%
+  Lines: 10/10
+  Branch Coverage: 87.5%
+  Branches: 7/8
+
+Testing: claude_problem6_cot_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 94.4%
+  Lines: 10/10
+  Branch Coverage: 87.5%
+  Branches: 7/8
+
+Testing: gpt5_problem6_cot_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 9/9
+  Branch Coverage: 100.0%
+  Branches: 6/6
+
+Testing: gpt5_problem6_selfdebug_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 82.6%
+  Lines: 11/13
+  Branch Coverage: 80.0%
+  Branches: 8/10
+
+Testing: gpt5_problem6_tds_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 85.2%
+  Lines: 15/17
+  Branch Coverage: 80.0%
+  Branches: 8/10
+
+Testing: gpt5_problem6_selfdebug_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 89.5%
+  Lines: 10/11
+  Branch Coverage: 87.5%
+  Branches: 7/8
+
+Testing: gpt5_problem6_tds_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 85.2%
+  Lines: 15/17
+  Branch Coverage: 80.0%
+  Branches: 8/10
+
+Testing: gpt5_problem6_cot_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 83.3%
+  Lines: 6/7
+  Branch Coverage: 80.0%
+  Branches: 4/5
+
+Testing: gpt5_problem6_cot_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 89.5%
+  Lines: 10/11
+  Branch Coverage: 87.5%
+  Branches: 7/8
+
+Testing: gpt5_problem6_selfdebug_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 83.3%
+  Lines: 6/7
+  Branch Coverage: 80.0%
+  Branches: 4/5
+
+Testing: gpt5_problem6_tds_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 90.0%
+  Lines: 13/14
+  Branch Coverage: 83.3%
+  Branches: 5/6
+
+================================================================================
+Analyzing Problem problem7
+================================================================================
+
+Testing: claude_problem7_selfdebug_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 15/15
+  Branch Coverage: 100.0%
+  Branches: 12/12
+
+Testing: claude_problem7_cot_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 15/15
+  Branch Coverage: 100.0%
+  Branches: 8/8
+
+Testing: claude_problem7_tds_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 19/19
+  Branch Coverage: 100.0%
+  Branches: 10/10
+
+Testing: claude_problem7_tds_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 9/9
+  Branch Coverage: 100.0%
+  Branches: 10/10
+
+Testing: claude_problem7_selfdebug_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 15/15
+  Branch Coverage: 100.0%
+  Branches: 8/8
+
+Testing: claude_problem7_cot_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 15/15
+  Branch Coverage: 100.0%
+  Branches: 12/12
+
+Testing: claude_problem7_cot_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 14/14
+  Branch Coverage: 100.0%
+  Branches: 8/8
+
+Testing: claude_problem7_selfdebug_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 14/14
+  Branch Coverage: 100.0%
+  Branches: 8/8
+
+Testing: claude_problem7_tds_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 12/12
+  Branch Coverage: 100.0%
+  Branches: 10/10
+
+Testing: gpt5_problem7_tds_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 91.7%
+  Lines: 36/38
+  Branch Coverage: 86.4%
+  Branches: 19/22
+
+Testing: gpt5_problem7_cot_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 10/10
+  Branch Coverage: 100.0%
+  Branches: 6/6
+
+Testing: gpt5_problem7_selfdebug_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 90.0%
+  Lines: 11/12
+  Branch Coverage: 87.5%
+  Branches: 7/8
+
+Testing: gpt5_problem7_selfdebug_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 22/22
+  Branch Coverage: 100.0%
+  Branches: 12/12
+
+Testing: gpt5_problem7_selfdebug_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 18/18
+  Branch Coverage: 100.0%
+  Branches: 12/12
+
+Testing: gpt5_problem7_tds_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 87.3%
+  Lines: 32/35
+  Branch Coverage: 80.0%
+  Branches: 16/20
+
+Testing: gpt5_problem7_cot_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 22/22
+  Branch Coverage: 100.0%
+  Branches: 12/12
+
+Testing: gpt5_problem7_cot_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 18/18
+  Branch Coverage: 100.0%
+  Branches: 12/12
+
+Testing: gpt5_problem7_tds_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 87.5%
+  Lines: 20/22
+  Branch Coverage: 83.3%
+  Branches: 15/18
+
+================================================================================
+Analyzing Problem problem8
+================================================================================
+
+Testing: claude_problem8_tds_sample2.py
+  Status: ✗ FAILED
+  Line Coverage: 46.5%
+  Lines: 16/29
+  Branch Coverage: 28.6%
+  Branches: 4/14
+
+Testing: claude_problem8_cot_sample3.py
+  Status: ✗ FAILED
+  Line Coverage: 81.5%
+  Lines: 16/19
+  Branch Coverage: 75.0%
+  Branches: 6/8
+
+Testing: claude_problem8_selfdebug_sample2.py
+  Status: ✗ FAILED
+  Line Coverage: 76.7%
+  Lines: 18/22
+  Branch Coverage: 62.5%
+  Branches: 5/8
+
+Testing: claude_problem8_cot_sample2.py
+  Status: ✗ FAILED
+  Line Coverage: 76.7%
+  Lines: 18/22
+  Branch Coverage: 62.5%
+  Branches: 5/8
+
+Testing: claude_problem8_selfdebug_sample3.py
+  Status: ✗ FAILED
+  Line Coverage: 81.5%
+  Lines: 16/19
+  Branch Coverage: 75.0%
+  Branches: 6/8
+
+Testing: claude_problem8_tds_sample3.py
+  Status: ✗ FAILED
+  Line Coverage: 83.3%
+  Lines: 21/24
+  Branch Coverage: 75.0%
+  Branches: 9/12
+
+Testing: claude_problem8_cot_sample1.py
+  Status: ✗ FAILED
+  Line Coverage: 76.7%
+  Lines: 18/22
+  Branch Coverage: 62.5%
+  Branches: 5/8
+
+Testing: claude_problem8_tds_sample1.py
+  Status: ✗ FAILED
+  Line Coverage: 80.8%
+  Lines: 15/18
+  Branch Coverage: 75.0%
+  Branches: 6/8
+
+Testing: claude_problem8_selfdebug_sample1.py
+  Status: ✗ FAILED
+  Line Coverage: 8.7%
+  Lines: 4/30
+  Branch Coverage: 0.0%
+  Branches: 0/16
+
+Testing: gpt5_problem8_tds_sample1.py
+  Status: ✗ FAILED
+  Line Coverage: 62.1%
+  Lines: 48/72
+  Branch Coverage: 54.5%
+  Branches: 24/44
+
+Testing: gpt5_problem8_cot_sample1.py
+  Status: ✗ FAILED
+  Line Coverage: 73.7%
+  Lines: 36/46
+  Branch Coverage: 66.7%
+  Branches: 20/30
+
+Testing: gpt5_problem8_selfdebug_sample1.py
+  Status: ✗ FAILED
+  Line Coverage: 73.8%
+  Lines: 43/54
+  Branch Coverage: 63.3%
+  Branches: 19/30
+
+Testing: gpt5_problem8_selfdebug_sample2.py
+  Status: ✗ FAILED
+  Line Coverage: 66.3%
+  Lines: 43/59
+  Branch Coverage: 55.6%
+  Branches: 20/36
+
+Testing: gpt5_problem8_selfdebug_sample3.py
+  Status: ✗ FAILED
+  Line Coverage: 65.9%
+  Lines: 42/59
+  Branch Coverage: 56.2%
+  Branches: 18/32
+
+Testing: gpt5_problem8_cot_sample2.py
+  Status: ✗ FAILED
+  Line Coverage: 65.6%
+  Lines: 43/59
+  Branch Coverage: 52.9%
+  Branches: 18/34
+
+Testing: gpt5_problem8_tds_sample3.py
+  Status: ✗ FAILED
+  Line Coverage: 61.7%
+  Lines: 34/51
+  Branch Coverage: 53.3%
+  Branches: 16/30
+
+Testing: gpt5_problem8_tds_sample2.py
+  Status: ✗ FAILED
+  Line Coverage: 66.7%
+  Lines: 47/65
+  Branch Coverage: 57.5%
+  Branches: 23/40
+
+Testing: gpt5_problem8_cot_sample3.py
+  Status: ✗ FAILED
+  Line Coverage: 62.8%
+  Lines: 36/54
+  Branch Coverage: 54.2%
+  Branches: 13/24
+
+================================================================================
+Analyzing Problem problem9
+================================================================================
+
+Testing: claude_problem9_tds_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 5/5
+
+Testing: claude_problem9_cot_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 7/7
+
+Testing: claude_problem9_cot_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 3/3
+
+Testing: claude_problem9_tds_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 5/5
+
+Testing: claude_problem9_selfdebug_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 7/7
+
+Testing: claude_problem9_selfdebug_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 3/3
+
+Testing: claude_problem9_selfdebug_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 7/7
+
+Testing: claude_problem9_tds_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 6/6
+
+Testing: claude_problem9_cot_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 7/7
+
+Testing: gpt5_problem9_cot_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 6/6
+
+Testing: gpt5_problem9_tds_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 84.0%
+  Lines: 15/17
+  Branch Coverage: 75.0%
+  Branches: 6/8
+
+Testing: gpt5_problem9_selfdebug_sample1.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 6/6
+
+Testing: gpt5_problem9_cot_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 12/12
+  Branch Coverage: 100.0%
+  Branches: 8/8
+
+Testing: gpt5_problem9_tds_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 89.2%
+  Lines: 21/23
+  Branch Coverage: 85.7%
+  Branches: 12/14
+
+Testing: gpt5_problem9_selfdebug_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 8/8
+  Branch Coverage: 100.0%
+  Branches: 2/2
+
+Testing: gpt5_problem9_tds_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 87.5%
+  Lines: 20/22
+  Branch Coverage: 80.0%
+  Branches: 8/10
+
+Testing: gpt5_problem9_selfdebug_sample3.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 13/13
+  Branch Coverage: 100.0%
+  Branches: 8/8
+
+Testing: gpt5_problem9_cot_sample2.py
+  Status: ✓ PASSED
+  Line Coverage: 100.0%
+  Lines: 8/8
+  Branch Coverage: 100.0%
+  Branches: 2/2
+
+
+========================================================================================================================
+BASELINE COVERAGE SUMMARY
+========================================================================================================================
+
+========================================================================================================================
+Problem      Tests    Passed   Line %     Branch %     Interpretation                                    
+========================================================================================================================
+problem1     16/18    2 ✗      85.8%      83.8%        2 solution(s) failed tests; good line coverage; ...
+problem10    18/18    ✓        92.2%      78.1%        All solutions passed tests; excellent line cover...
+problem2     18/18    ✓        88.2%      81.8%        All solutions passed tests; good line coverage; ...
+problem3     18/18    ✓        86.4%      84.6%        All solutions passed tests; good line coverage; ...
+problem4     18/18    ✓        87.4%      83.1%        All solutions passed tests; good line coverage; ...
+problem5     18/18    ✓        93.4%      61.9%        All solutions passed tests; excellent line cover...
+problem6     18/18    ✓        91.3%      86.6%        All solutions passed tests; excellent line cover...
+problem7     18/18    ✓        97.6%      96.5%        All solutions passed tests; excellent line cover...
+problem8     0/18     18 ✗     0.0%       N/A          18 solution(s) failed tests; low line coverage -...
+problem9     18/18    ✓        97.8%      91.5%        All solutions passed tests; excellent line cover...
+========================================================================================================================
+
+OVERALL STATISTICS:
+  Total Solutions Tested: 180
+  Solutions Passed: 160 (88.9%)
+  Solutions Failed: 20
+  Average Line Coverage: 91.2%
+  Average Branch Coverage: 83.1%
+
+
+Detailed results saved to: /Users/lavanika/Desktop/Fall 2025/520/assignments/Ex2/coverage_results/baseline_coverage_results.json
+Summary table saved to: /Users/lavanika/Desktop/Fall 2025/520/assignments/Ex2/coverage_results/baseline_coverage_summary.txt
+
+========================================================================================================================
+Coverage analysis complete!
+========================================================================================================================
