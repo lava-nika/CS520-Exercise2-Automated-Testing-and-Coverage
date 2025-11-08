@@ -1,0 +1,30 @@
+IMPROVED Chain-of-Thought Prompt for problem1
+
+from typing import List
+
+
+def has_close_elements(numbers: List[float], threshold: float) -> bool:
+    """ Check if in given list of numbers, are any two numbers closer to each other than
+    given threshold.
+    >>> has_close_elements([1.0, 2.0, 3.0], 0.5)
+    False
+    >>> has_close_elements([1.0, 2.8, 3.0, 4.0, 5.0, 2.0], 0.3)
+    True
+    """
+
+
+CRITICAL REQUIREMENTS:
+1. Your function MUST be named exactly: has_close_elements
+2. Do not create alternative function names or variants
+3. The function signature must match the prompt exactly
+
+DEBUGGING HINTS:
+- For root-finding problems: Use bisection method for guaranteed convergence
+- Test your solution with edge cases
+- Ensure numerical precision meets requirements (typically 1e-4 or better)
+
+Please implement this step by step:
+1. Understand the problem requirements
+2. Plan your approach (for numerical problems, prefer stable algorithms like bisection)
+3. Implement the solution with the EXACT function name: has_close_elements
+4. Test with the provided examples

@@ -1,0 +1,21 @@
+Solve this programming problem step by step. First, explain your reasoning and approach, then write the code.
+
+Problem:
+def count_nums(arr):
+    """
+    Write a function count_nums which takes an array of integers and returns
+    the number of elements which has a sum of digits > 0.
+    If a number is negative, then its first signed digit will be negative:
+    e.g. -123 has signed digits -1, 2, 3.
+    >>> count_nums([]) == 0
+    >>> count_nums([-1, 11, -11]) == 1
+    >>> count_nums([1, 1, 2]) == 3
+    """
+
+Please:
+1. Explain the problem in your own words
+2. Describe your approach and algorithm
+3. Consider edge cases
+4. Then implement the solution
+
+Provide the final code implementation.

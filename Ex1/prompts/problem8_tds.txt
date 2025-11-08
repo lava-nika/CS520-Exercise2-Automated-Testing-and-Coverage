@@ -1,0 +1,93 @@
+Test-Driven Specification (TDS) Prompting Strategy
+
+Implement a function using a test-driven approach. Follow these three phases:
+
+PHASE 1: WRITE COMPREHENSIVE TESTS
+
+Function Specification:
+import math
+
+
+def poly(xs: list, x: float):
+    """
+    Evaluates polynomial with coefficients xs at point x.
+    return xs[0] + xs[1] * x + xs[1] * x^2 + .... xs[n] * x^n
+    """
+    return sum([coeff * math.pow(x, i) for i, coeff in enumerate(xs)])
+
+
+def find_zero(xs: list):
+    """ xs are coefficients of a polynomial.
+    find_zero find x such that poly(x) = 0.
+    find_zero returns only only zero point, even if there are many.
+    Moreover, find_zero only takes list xs having even number of coefficients
+    and largest non zero coefficient as it guarantees
+    a solution.
+    >>> round(find_zero([1, 2]), 2) # f(x) = 1 + 2x
+    -0.5
+    >>> round(find_zero([-6, 11, -6, 1]), 2) # (x - 1) * (x - 2) * (x - 3) = -6 + 11x - 6x^2 + x^3
+    1.0
+    """
+
+Your Task: Write test cases that thoroughly verify this function.
+
+Requirements:
+1. Write at least 6-8 test cases using assert statements
+2. CRITICAL: Use the EXACT function name 'find_zero' in ALL assertions
+3. Cover these scenarios:
+   - The provided examples above
+   - Edge cases (empty inputs, single elements, None values where applicable)
+   - Boundary conditions (at limits, just before/after thresholds)
+   - Normal cases with various inputs
+   - Any special cases mentioned in the docstring
+
+Format your tests as:
+    assert find_zero(...) == expected_result
+
+Examples from the spec:
+   >>> round(find_zero([1, 2]), 2) # f(x) = 1 + 2x
+   >>> round(find_zero([-6, 11, -6, 1]), 2) # (x - 1) * (x - 2) * (x - 3) = -6 + 11x - 6x^2 + x^3
+
+Write your test cases now:
+
+PHASE 2: IMPLEMENT TO PASS YOUR TESTS
+
+Now implement the function to pass ALL the tests you just wrote.
+
+Critical Requirements:
+1. Function name MUST be exactly: find_zero
+2. Must handle all edge cases from your tests
+3. Consider algorithm efficiency and stability
+4. For numerical problems: use stable algorithms (e.g., bisection for root-finding)
+5. Include proper type hints if shown in the specification
+
+Implementation Guidelines:
+- Start simple, then optimize if needed
+- Ensure your logic handles all test cases
+- For numerical precision: aim for high accuracy (typically 1e-4 or better)
+- Don't over-engineer - clarity and correctness first
+
+Provide your implementation:
+
+PHASE 3: VERIFICATION & REFINEMENT
+
+Mental Trace-Through:
+1. Go through EACH test case you wrote in Phase 1
+2. Mentally execute your implementation with those inputs
+3. Verify the output matches expected results
+4. Check edge cases work correctly
+
+Self-Check Questions:
+- Does my function name exactly match 'find_zero'?
+- Did I handle all edge cases in my tests?
+- Are there any off-by-one errors?
+- For loops/iterations: am I using correct ranges?
+- For numerical operations: is precision sufficient?
+- Does it work for all input orderings/variations?
+
+If you find any issues during verification, provide the CORRECTED implementation.
+Otherwise, confirm your implementation is correct.
+
+FINAL OUTPUT
+
+Provide your final, verified implementation below (code only, ready to run):

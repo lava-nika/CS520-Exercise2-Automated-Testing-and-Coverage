@@ -1,0 +1,86 @@
+Test-Driven Specification (TDS) Prompting Strategy
+
+Implement a function using a test-driven approach. Follow these three phases:
+
+PHASE 1: WRITE COMPREHENSIVE TESTS
+
+Function Specification:
+def same_chars(s0: str, s1: str):
+    """
+    Check if two words have the same characters.
+    >>> same_chars('eabcdzzzz', 'dddzzzzzzzddeddabc')
+    True
+    >>> same_chars('abcd', 'dddddddabc')
+    True
+    >>> same_chars('dddddddabc', 'abcd')
+    True
+    >>> same_chars('eabcd', 'dddddddabc')
+    False
+    >>> same_chars('abcd', 'dddddddabce')
+    False
+    >>> same_chars('eabcdzzzz', 'dddzzzzzzzddddabc')
+    False
+    """
+
+Your Task: Write test cases that thoroughly verify this function.
+
+Requirements:
+1. Write at least 6-8 test cases using assert statements
+2. CRITICAL: Use the EXACT function name 'same_chars' in ALL assertions
+3. Cover these scenarios:
+   - The provided examples above
+   - Edge cases (empty inputs, single elements, None values where applicable)
+   - Boundary conditions (at limits, just before/after thresholds)
+   - Normal cases with various inputs
+   - Any special cases mentioned in the docstring
+
+Format your tests as:
+    assert same_chars(...) == expected_result
+
+Examples from the spec:
+   >>> same_chars('eabcdzzzz', 'dddzzzzzzzddeddabc')
+   >>> same_chars('abcd', 'dddddddabc')
+
+Write your test cases now:
+
+PHASE 2: IMPLEMENT TO PASS YOUR TESTS
+
+Now implement the function to pass ALL the tests you just wrote.
+
+Critical Requirements:
+1. Function name MUST be exactly: same_chars
+2. Must handle all edge cases from your tests
+3. Consider algorithm efficiency and stability
+4. For numerical problems: use stable algorithms (e.g., bisection for root-finding)
+5. Include proper type hints if shown in the specification
+
+Implementation Guidelines:
+- Start simple, then optimize if needed
+- Ensure your logic handles all test cases
+- For numerical precision: aim for high accuracy (typically 1e-4 or better)
+- Don't over-engineer - clarity and correctness first
+
+Provide your implementation:
+
+PHASE 3: VERIFICATION & REFINEMENT
+
+Mental Trace-Through:
+1. Go through EACH test case you wrote in Phase 1
+2. Mentally execute your implementation with those inputs
+3. Verify the output matches expected results
+4. Check edge cases work correctly
+
+Self-Check Questions:
+- Does my function name exactly match 'same_chars'?
+- Did I handle all edge cases in my tests?
+- Are there any off-by-one errors?
+- For loops/iterations: am I using correct ranges?
+- For numerical operations: is precision sufficient?
+- Does it work for all input orderings/variations?
+
+If you find any issues during verification, provide the CORRECTED implementation.
+Otherwise, confirm your implementation is correct.
+
+FINAL OUTPUT
+
+Provide your final, verified implementation below (code only, ready to run):

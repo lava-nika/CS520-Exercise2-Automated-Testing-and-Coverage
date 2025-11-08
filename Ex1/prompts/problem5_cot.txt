@@ -1,0 +1,27 @@
+Solve this programming problem step by step. First, explain your reasoning and approach, then write the code.
+
+Problem:
+def same_chars(s0: str, s1: str):
+    """
+    Check if two words have the same characters.
+    >>> same_chars('eabcdzzzz', 'dddzzzzzzzddeddabc')
+    True
+    >>> same_chars('abcd', 'dddddddabc')
+    True
+    >>> same_chars('dddddddabc', 'abcd')
+    True
+    >>> same_chars('eabcd', 'dddddddabc')
+    False
+    >>> same_chars('abcd', 'dddddddabce')
+    False
+    >>> same_chars('eabcdzzzz', 'dddzzzzzzzddddabc')
+    False
+    """
+
+Please:
+1. Explain the problem in your own words
+2. Describe your approach and algorithm
+3. Consider edge cases
+4. Then implement the solution
+
+Provide the final code implementation.

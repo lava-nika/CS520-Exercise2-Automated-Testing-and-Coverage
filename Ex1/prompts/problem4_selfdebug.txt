@@ -1,0 +1,26 @@
+Generate a solution for this problem, then review it for potential bugs:
+
+Problem:
+def make_palindrome(string: str) -> str:
+    """ Find the shortest palindrome that begins with a supplied string.
+    Algorithm idea is simple:
+    - Find the longest postfix of supplied string that is a palindrome.
+    - Append to the end of the string reverse of a string prefix that comes before the palindromic suffix.
+    >>> make_palindrome('')
+    ''
+    >>> make_palindrome('cat')
+    'catac'
+    >>> make_palindrome('cata')
+    'catac'
+    """
+
+Process:
+1. First, implement a solution
+2. Then, act as a code reviewer and check for:
+   - Off-by-one errors
+   - Edge cases (empty input, single element, etc.)
+   - Type handling issues
+   - Logic errors
+3. If you find issues, provide a corrected version
+
+Provide the final, debugged implementation.

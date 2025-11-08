@@ -1,0 +1,27 @@
+Generate a solution for this problem, then review it for potential bugs:
+
+Problem:
+def correct_bracketing(brackets: str):
+    """ brackets is a string of "(" and ")".
+    return True if every opening bracket has a corresponding closing bracket.
+
+    >>> correct_bracketing("(")
+    False
+    >>> correct_bracketing("()")
+    True
+    >>> correct_bracketing("(()())")
+    True
+    >>> correct_bracketing(")(()")
+    False
+    """
+
+Process:
+1. First, implement a solution
+2. Then, act as a code reviewer and check for:
+   - Off-by-one errors
+   - Edge cases (empty input, single element, etc.)
+   - Type handling issues
+   - Logic errors
+3. If you find issues, provide a corrected version
+
+Provide the final, debugged implementation.

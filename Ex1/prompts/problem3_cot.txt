@@ -1,0 +1,28 @@
+Solve this programming problem step by step. First, explain your reasoning and approach, then write the code.
+
+Problem:
+def is_prime(n):
+    """Return true if a given number is prime, and false otherwise.
+    >>> is_prime(6)
+    False
+    >>> is_prime(101)
+    True
+    >>> is_prime(11)
+    True
+    >>> is_prime(13441)
+    True
+    >>> is_prime(61)
+    True
+    >>> is_prime(4)
+    False
+    >>> is_prime(1)
+    False
+    """
+
+Please:
+1. Explain the problem in your own words
+2. Describe your approach and algorithm
+3. Consider edge cases
+4. Then implement the solution
+
+Provide the final code implementation.

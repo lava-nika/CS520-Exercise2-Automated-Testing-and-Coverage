@@ -1,0 +1,21 @@
+def same_chars(s0: str, s1: str) -> bool:
+    """
+    Check if two words have the same characters (ignoring multiplicity and order).
+
+    >>> same_chars('eabcdzzzz', 'dddzzzzzzzddeddabc')
+    True
+    >>> same_chars('abcd', 'dddddddabc')
+    True
+    >>> same_chars('dddddddabc', 'abcd')
+    True
+    >>> same_chars('eabcd', 'dddddddabc')
+    False
+    >>> same_chars('abcd', 'dddddddabce')
+    False
+    >>> same_chars('eabcdzzzz', 'dddzzzzzzzddddabc')
+    False
+    """
+    if not isinstance(s0, str) or not isinstance(s1, str):
+        raise TypeError("same_chars expects both inputs to be strings")
+
+    return set(s0) == set(s1)

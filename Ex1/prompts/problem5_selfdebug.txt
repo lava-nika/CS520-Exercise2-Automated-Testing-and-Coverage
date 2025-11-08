@@ -1,0 +1,30 @@
+Generate a solution for this problem, then review it for potential bugs:
+
+Problem:
+def same_chars(s0: str, s1: str):
+    """
+    Check if two words have the same characters.
+    >>> same_chars('eabcdzzzz', 'dddzzzzzzzddeddabc')
+    True
+    >>> same_chars('abcd', 'dddddddabc')
+    True
+    >>> same_chars('dddddddabc', 'abcd')
+    True
+    >>> same_chars('eabcd', 'dddddddabc')
+    False
+    >>> same_chars('abcd', 'dddddddabce')
+    False
+    >>> same_chars('eabcdzzzz', 'dddzzzzzzzddddabc')
+    False
+    """
+
+Process:
+1. First, implement a solution
+2. Then, act as a code reviewer and check for:
+   - Off-by-one errors
+   - Edge cases (empty input, single element, etc.)
+   - Type handling issues
+   - Logic errors
+3. If you find issues, provide a corrected version
+
+Provide the final, debugged implementation.

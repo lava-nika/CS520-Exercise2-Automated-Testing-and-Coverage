@@ -1,0 +1,37 @@
+IMPROVED Self-Debug Prompt for problem1
+
+from typing import List
+
+
+def has_close_elements(numbers: List[float], threshold: float) -> bool:
+    """ Check if in given list of numbers, are any two numbers closer to each other than
+    given threshold.
+    >>> has_close_elements([1.0, 2.0, 3.0], 0.5)
+    False
+    >>> has_close_elements([1.0, 2.8, 3.0, 4.0, 5.0, 2.0], 0.3)
+    True
+    """
+
+
+CRITICAL REQUIREMENTS:
+1. Your function MUST be named exactly: has_close_elements
+2. Do not rename or create alternative implementations
+3. Function signature must match exactly
+
+IMPLEMENTATION GUIDELINES:
+1. First, implement a working solution with the EXACT function name
+2. Test it with the provided examples
+3. Debug any issues you find
+4. Optimize if needed, but NEVER change the function name
+
+For numerical problems:
+- Use stable algorithms (bisection for root-finding)
+- Verify convergence criteria
+- Test edge cases
+
+Common pitfalls to avoid:
+- Using creative function names like has_close_elements_improved or has_close_elements_v2
+- Over-engineering the solution
+- Using unstable numerical methods
+
+Your final code must define: def has_close_elements(...)
