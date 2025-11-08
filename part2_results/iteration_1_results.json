@@ -1,0 +1,22 @@
+{
+  "problem10": {
+    "baseline_line": 92.17281032590097,
+    "baseline_branch": 78.125,
+    "iteration_1_line": 100.0,
+    "iteration_1_branch": 100.0,
+    "line_improvement": 7.827189674099031,
+    "branch_improvement": 21.875,
+    "tests_generated": 7,
+    "tests_passed": true
+  },
+  "problem4": {
+    "baseline_line": 87.43968239338288,
+    "baseline_branch": 83.05555555555556,
+    "iteration_1_line": 100.0,
+    "iteration_1_branch": 100.0,
+    "line_improvement": 12.560317606617119,
+    "branch_improvement": 16.944444444444443,
+    "tests_generated": 7,
+    "tests_passed": true
+  }
+}

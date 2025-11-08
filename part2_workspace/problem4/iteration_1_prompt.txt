@@ -1,0 +1,26 @@
+Improve branch coverage for this palindrome algorithm with while loop:
+
+Current: 87.4% line, 83.1% branch (16.9% gap)
+
+Canonical implementation: Find shortest palindrome by finding longest palindromic suffix
+```python
+def is_palindrome(string: str) -> bool:
+    return string == string[::-1]
+
+def make_palindrome(string: str) -> str:
+    if not string:
+        return ''
+    beginning_of_suffix = 0
+    while not is_palindrome(string[beginning_of_suffix:]):
+        beginning_of_suffix += 1
+    return string + string[:beginning_of_suffix][::-1]
+```
+
+Generate 5-7 pytest tests covering:
+- Empty string → ''
+- Already palindrome: 'aba' → 'aba', 'racecar' → 'racecar' (while loop never executes)
+- Single/two chars: 'a' → 'a', 'ab' → 'aba'
+- No palindromic suffix: 'abc' → 'abcba' (while loop to end)
+- Partial suffix: 'abcd' → 'abcdcba'
+
+Focus on while loop iteration paths (0, 1, multiple) and empty string handling.
